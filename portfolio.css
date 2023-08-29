@@ -1,0 +1,47 @@
+/* I placed it in top cause it will apply in the whole body */
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* nav related style */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav title {
+  color: var(--dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+}
+
+
+.invert {
+  color: #fd6e0a;
+margin-top: 23px;
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav a{
+    text-decoration: none;
+    color: slategrey;
+}
+nav button{
+    color: aliceblue;
+    background-color: #fd6e0a;
+    width: 150px;
+    height: 65px;
+    border-radius: 10px;
+    border-color: #fd6e0a;
+    margin-top: 10px;
+}
