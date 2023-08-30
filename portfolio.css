@@ -11,7 +11,7 @@ nav {
 }
 
 .nav title {
-  color: var(--dark-01, #181818);
+  color:  #181818;
   font-size: 45px;
   font-weight: 800;
 }
