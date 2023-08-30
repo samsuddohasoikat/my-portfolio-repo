@@ -6,7 +6,8 @@
 /* nav related style */
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav title {
@@ -15,33 +16,93 @@ nav {
   font-weight: 800;
 }
 
-
 .invert {
   color: #fd6e0a;
-margin-top: 23px;
+  margin-top: 23px;
   display: inline-block;
   transform: rotate(180deg);
 }
 
-nav > ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 51px;
+nav li {
+  list-style: none;
+  margin-right: 51px;
 }
 
-nav a{
-    text-decoration: none;
-    color: slategrey;
+nav a {
+  text-decoration: none;
+  color: slategrey;
 }
-nav button{
-    color: aliceblue;
-    background-color: #fd6e0a;
-    width: 150px;
-    height: 65px;
-    border-radius: 10px;
-    border-color: #fd6e0a;
-    margin-top: 10px;
+nav button {
+  color: aliceblue;
+  background-color: #fd6e0a;
+  width: 150px;
+  height: 65px;
+  border-radius: 10px;
+  border-color: #fd6e0a;
+  margin-top: 10px;
 }
+
+/* header related style */
+
+.header {
+  background-color: #fff8f3;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.cv {
+  padding: 10px 30px;
+  color: aliceblue;
+  background-color: #fd6e0a;
+  border-radius: 10px;
+  border-color: #fd6e0a;
+  background-image: url("/images/Frame\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: left;
+}
+
+.contact {
+  margin-left: 10px;
+  padding: 5px 15px;
+  color: #fd6e0a;
+  border-radius: 5px;
+  border-color: #fd6e0a;
+  background-image: url("/images/Frame.svg");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: left;
+}
+
+.banner {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.hi {
+  font-size: 45px;
+  color: dimgray;
+}
+.name {
+  font-size: 85px;
+  font-weight: 700;
+  color: slategray;
+}
+
+.image {
+  margin: 124px 20px 0px 0px;
+}
+
+/* main section styles end here */
+
+/* about section styles starts here*/
+
+
